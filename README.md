@@ -1,3 +1,3 @@
 # html-basic
 
-/ Learn HTML Basics /
+* Learn HTML Basics *
