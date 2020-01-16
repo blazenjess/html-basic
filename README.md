@@ -1,6 +1,5 @@
 # html-basic
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+```html
+<html> </html>
 ```
