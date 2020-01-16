@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak Sekolah Koding</title>
+</head>
+<body>
+
+    <!-- menu website -->
+    <div>
+        <a href="../index.html">Home</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- bagian awal, isinya tag heading -->
+    <div>
+        <h1>Sekolah Koding</h1>
+        <h2>&nbsp;Tutorial online untuk belajar <span>membuat website</span></h2>
+    </div>
+
+
+    <!-- membuat form -->
+    <form action="">
+        <fieldset>
+            <legend>Nama dan Pesan</legend>
+            <label for="nama-user">Nama</label>
+            <input type="text" placeholder="Nama user" id="nama-user">
+            <br>
+            <label for="pesan-user">Pesan</label>
+            <textarea cols="100" rows="7" id="pesan-user"></textarea>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pilihan Data</legend>
+            <label for="">Hobi</label> <br>
+            <input type="checkbox" name="hobi_user" value="0"> Menggambar 
+            <input type="checkbox" name="hobi_user" value="1" checked> Menulis 
+            <input type="checkbox" name="hobi_user" value="2"> Menulis
+            <br>
+            <label for="">Jenis Kelamin</label> <br>
+            <input type="radio" name="gender" value="0" checked> Laki - Laki 
+            <input type="radio" name="gender" value="1"> Perempuan
+            <br>
+            <label for="">Pelajaran</label>
+            <select>
+                <optgroup label="Front-End">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                </optgroup>
+
+                <optgroup label="Back-End">
+                    <option value="javascript">PHP</option>
+                    <option value="database">NodeJS</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        
+
+        <input type="submit" value="Kirim Data">
+    </form>
+
+    <br>
+    <br>
+    <table border="1">
+        <caption>Daftar murid sekolah koding</caption>
+        <tr>
+            <th>Nama Murid</th>
+            <th>Kota Asal</th>
+        </tr>
+        <tr>
+            <td>Hilman</td>
+            <td>Makassar</td>
+        </tr>
+        <tr>
+            <td>Endy</td>
+            <td>Pangkep</td>
+        </tr>
+    </table>
+
+    <!-- list pada html -->
+    <ul>
+        <li>Hilman</li>
+        <li>Endy</li>
+    </ul>
+
+    <ol>
+        <li>Hilman</li>
+        <li>Endy</li>
+    </ol>
+
+    <dl>
+        <dt>Hilman</dt>
+        <dd>User pertama sekolah koding</dd>
+
+        <dt>Hilman</dt>
+        <dd>User kedua sekolah koding</dd>
+    </dl>
+
+</body>
+</html>
